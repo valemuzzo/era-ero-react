@@ -1,0 +1,37 @@
+/*Menu acordeon*/
+.accordion-item {
+  text-align: center;
+  width: 33%;
+  display: block;
+  float: left;
+  padding-bottom: 30px;
+  border: 0;
+  cursor: pointer;
+}
+.accordion-body {
+  border-top: 1px solid #c5c5c5;
+}
+.accordion-item h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: #f7a928;
+  display: block;
+  text-align: left;
+  padding-left: 25px;
+  background-image: url("../../images/orange-arrow.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.accordion-item .accordion-body ul {
+  margin: 0;
+  padding: 0;
+  display: block;
+  text-align: center;
+  float: left;
+  width: 50%;
+}
+.accordion-item .accordion-body ul li {
+  list-style: none;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}

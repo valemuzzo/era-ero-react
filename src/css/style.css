@@ -1,0 +1,456 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500;600;700&display=swap");
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+/*---Barra Top---*/
+.logo {
+  font-weight: 700;
+  color: #fff;
+  font-size: 23px;
+  line-height: 46px;
+}
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo a:hover {
+  color: #bb8124;
+  text-decoration: none;
+}
+
+.top {
+  background-color: #f7a928;
+  height: 50px;
+  padding: 0 10vw 0 10vw;
+}
+
+/*Buscar*/
+.campoSearch {
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  width: 33vw;
+}
+.campoSearch .input-group {
+  color: #fff;
+}
+/*---Menu de navegacion---*/
+.menuSuperior {
+  /*display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;*/
+}
+
+.navegacion {
+  background-color: #fff;
+  margin-left: auto;
+}
+.nav-item a {
+  margin-top: 3px;
+  color: #000;
+  font-size: 0.9em;
+  font-weight: 400;
+  padding: 0 15px 0 15px;
+  border-left: 2px solid #f7a928;
+}
+
+.nav-item a:hover {
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/*---Redes Sociales de navegacion superior----*/
+.textoRedes p {
+  font-family: "Raleway", sans-serif;
+  font-size: 1em;
+  padding-top: 10px;
+  line-height: 1.2em;
+  font-weight: 600;
+  color: #275d71;
+  /* margin-right: 20px;*/
+}
+
+.iconosRedes a {
+  display: block;
+  float: left;
+  color: #fff;
+  font-size: 1.2em;
+  text-align: center;
+  width: 32px;
+  height: 32px;
+  padding: 3px 0 3px 0;
+  margin: 3px;
+  background-color: #f7a928;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.iconosRedes a:hover {
+  background-color: #03b2b7;
+}
+
+/*---Botones destacados en Azul---*/
+.boton-azul a {
+  color: #fff;
+  font-size: 0.8em;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  background-color: #03b2b7;
+  border-radius: 25px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.boton-azul a:hover {
+  color: #fff;
+  background-color: #2b819b;
+  text-decoration: none;
+}
+
+/*---Botones destacados en Naranja---*/
+.boton-nar a {
+  color: #fff;
+  font-size: 0.8em;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  background-color: #f7a928;
+  border-radius: 25px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.boton-nar a:hover {
+  color: #fff;
+  background-color: #bb8124;
+  text-decoration: none;
+}
+
+/*---Seccion Banner---*/
+#banner {
+  background-image: url("../images/encabezado.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  /*background-size: 100%;*/
+  background-size: cover;
+  min-height: 300px;
+  overflow: hidden;
+
+  text-align: right;
+  padding: 30px 20vw 40px 20vw;
+}
+
+#banner p {
+  text-align: right;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+}
+
+#bannerseguros {
+  background-image: url("../images/seguros.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  /*background-size: 100%;*/
+  background-size: cover;
+  min-height: 300px;
+  overflow: hidden;
+  padding: 30px 20vw 40px 20vw;
+  margin-bottom: 3em;
+}
+
+#bannerseguros h1 {
+  color: #fff;
+  text-align: center;
+}
+
+#bannerseguros p {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+}
+
+/*---Seccion Descarga---*/
+#download {
+  background-color: #03b2b7;
+  padding: 40px 10vw 40px 10vw;
+  display: flex;
+}
+#download h1,
+h2 {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+#download h4 {
+  color: #2a3c5c;
+  font-family: "Raleway", sans-serif;
+}
+
+#download video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.textoDescarga {
+  flex-direction: column;
+  /*text-align: left;*/
+  margin-left: 0;
+  color: #2a3c5c;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+
+.botonDescarga img {
+  width: 8em;
+  margin: 5px 0px 5px 0px;
+}
+
+/*---Seccion About---*/
+#about {
+  text-align: center;
+  padding: 30px 15vw 30px 10vw;
+}
+#about h3 {
+  color: #f7a928;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+#about h5 {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  color: #2a3c5c;
+}
+
+/*---Seccion Categorías---*/
+#categorias {
+  background-color: #fff;
+  /*background-color: beige;*/
+  display: flex;
+  flex-direction: row wrap;
+}
+
+.categoriaContent {
+  align-items: center;
+  justify-content: center;
+}
+.categoriaContent h5 {
+  color: #2b819b;
+  font-family: "Raleway", sans-serif;
+}
+.categoriaIcono {
+  display: flex;
+  color: #2b819b;
+  font-size: 0.7em;
+  flex-direction: column;
+  text-align: center;
+  margin: 16px;
+}
+
+.categoriaIcono img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  margin-bottom: 18px;
+}
+
+.catPrincipales {
+  display: flex;
+  justify-content: center;
+  padding: 0 10vw 0 10vw;
+}
+
+.erocliente {
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #e4e4e4;
+}
+
+.erocliente h2 {
+  font-weight: 600;
+  text-align: left;
+  float: left;
+  display: block;
+  overflow: hidden;
+  font-size: 1.5em;
+}
+.turq {
+  color: #03b2b7;
+}
+.nar {
+  color: #f7a928;
+}
+
+.erocliente p {
+  color: #000;
+  text-align: left;
+  font-size: 1em;
+}
+
+.erocliente span {
+  margin-left: 7.5em;
+}
+
+.erocliente img {
+  height: 100px;
+}
+
+/*---Pagina Seguros---*/
+
+.seguro {
+  background-image: url(../images/erocliente.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 320px;
+  margin-bottom: 3em;
+  border-radius: 8px 0px 8px 0px;
+  margin: 0px 5px 10px 5px;
+}
+
+.seguro:hover {
+  opacity: 90%;
+}
+
+.seguro h2 {
+  color: #fff;
+  text-align: left;
+  margin-left: 6%;
+  font-size: 40px;
+  margin-top: 20%;
+}
+
+.seguro p {
+  color: #f7a928;
+  text-align: left;
+  margin-left: 6%;
+  font-size: 18px;
+}
+
+/*---Seccion Contacto---*/
+#contacto {
+  background-color: #275d71;
+  padding: 50px 26vw 50px 26vw;
+}
+
+#contacto h2 {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-weight: 600;
+}
+
+/*---Newsletter---*/
+.newsletter,
+.contactoTxt {
+  font-family: "Raleway", sans-serif;
+  text-align: left;
+  color: #fff;
+  font-size: 19px;
+  line-height: 19px;
+}
+
+/*---Footer---*/
+
+#footer {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-size: 0.8em;
+  background-color: #2a3c5c;
+  height: 120px;
+  text-align: center;
+
+  padding-top: 20px;
+}
+.icoRedesFooter a {
+  color: #275d71;
+  font-size: 1.2em;
+  text-align: center;
+  width: 36px;
+  padding: 7px 0 7px 0;
+  background-color: #fff;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.icoRedesFooter a:hover {
+  color: #03b2b7;
+}
+.campoFooter {
+  color: #fff;
+  background-color: #2a3c5c;
+  padding: 7px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.campoFooter .input-group {
+  color: #03b2b7;
+}
+
+/*----Páginas-----*/
+.encabezado-color {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  background-color: #03b2b7;
+  text-align: center;
+  min-height: 150px;
+  overflow: hidden;
+  padding: 20px;
+  margin-bottom: 3em;
+}
+.encabezado-color {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-weight: 700;
+}
+.encabezado-color h3,
+h4 {
+  font-family: "Raleway", sans-serif;
+  color: #275d71;
+  font-weight: 500;
+}
+/*---Seccion Como Funciona---*/
+
+.como-funciona {
+  font-family: "Raleway", sans-serif;
+  background-color: #2a3c5c;
+  color: #fff;
+  padding: 60px;
+}
+
+.soy-ero a,
+.soy-cliente a {
+  color: #fff;
+  text-decoration: none;
+}
+.soy-ero a:hover {
+  color: #03b2b7;
+  text-decoration: none;
+  transform: scale(1.5);
+}
+.soy-cliente a:hover {
+  color: #f7a928;
+  text-decoration: none;
+  transform: scale(1.5);
+}
+
+.soy-cliente,
+.soy-ero,
+img {
+  width: 110px;
+}

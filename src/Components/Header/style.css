@@ -1,0 +1,86 @@
+/*---Barra Top---*/
+.logo {
+  font-weight: 500;
+  color: #fff;
+  font-size: 25px;
+  line-height: 42px;
+}
+
+.logo a {
+  color: #fff;
+}
+
+.logo a:hover {
+  color: #bb8124;
+  text-decoration: none;
+}
+
+.top {
+  background-color: #f7a928;
+  height: 50px;
+  padding: 0 10vw 0 10vw;
+}
+
+/*Buscar*/
+.campoSearch {
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  width: 33vw;
+}
+.campoSearch .input-group {
+  color: #fff;
+}
+/*---Menu de navegacion---*/
+.menuSuperior {
+  /*display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;*/
+}
+
+.navegacion {
+  background-color: #fff;
+  margin-left: auto;
+}
+.nav-item a {
+  margin-top: 3px;
+  color: #000;
+  font-size: 0.9em;
+  font-weight: 400;
+  padding: 0 15px 0 15px;
+  border-left: 2px solid #f7a928;
+}
+
+.nav-item a:hover {
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/*---Redes Sociales de navegacion superior----*/
+.textoRedes p {
+  font-family: "Raleway", sans-serif;
+  font-size: 1em;
+  padding-top: 10px;
+  line-height: 1.2em;
+  font-weight: 600;
+  color: #275d71;
+  /* margin-right: 20px;*/
+}
+
+.iconosRedes a {
+  color: #fff;
+  font-size: 1.2em;
+  text-align: center;
+  width: 32px;
+  padding: 7px 0 7px 0;
+  background-color: #f7a928;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.iconosRedes a:hover {
+  background-color: #03b2b7;
+}
