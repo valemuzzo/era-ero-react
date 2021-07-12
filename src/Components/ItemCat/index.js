@@ -9,10 +9,7 @@ const ItemCat=({categoriaName, categoriaImg, collapseName})=>{
         <div className="accordion-item  col-12 col-md-4" onClick={() => setOpen(!open)}
         aria-controls="example-collapse-text"
         aria-expanded={open}>
-<img src={categoriaImg}
-
-        
-      />
+<img src={categoriaImg}/>
        <h2>{categoriaName}</h2>
       <Collapse in={open}>
         <div className="accordion-body" id={collapseName}>

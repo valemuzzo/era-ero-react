@@ -96,6 +96,7 @@ body {
 }
 
 /*---Botones destacados en Azul---*/
+
 .boton-azul a {
   color: #fff;
   font-size: 0.8em;
@@ -129,7 +130,7 @@ body {
   text-decoration: none;
 }
 
-/*---Seccion Banner---*/
+/*---Secciones Banners---*/
 #banner {
   background-image: url("../images/encabezado.jpg");
   background-position: center;
@@ -151,15 +152,14 @@ body {
 }
 
 #bannerseguros {
+  font-family: "Raleway", sans-serif;
   background-image: url("../images/seguros.jpg");
-  background-position: center;
+  background-position: 0 -130px;
   background-repeat: no-repeat;
-  /*background-size: 100%;*/
   background-size: cover;
-  min-height: 300px;
+  min-height: 200px;
   overflow: hidden;
   padding: 30px 20vw 40px 20vw;
-  margin-bottom: 3em;
 }
 
 #bannerseguros h1 {
@@ -170,6 +170,29 @@ body {
 #bannerseguros p {
   text-align: center;
   color: #fff;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+}
+
+#bannertutoriales {
+  font-family: "Raleway", sans-serif;
+  background-image: url("../images/tutoriales.jpg");
+  background-position: 0 -130px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 200px;
+  overflow: hidden;
+  padding: 30px 20vw 40px 20vw;
+  margin-bottom: 30px;
+}
+
+#bannertutoriales h1 {
+  color: #fff;
+  text-align: center;
+}
+#bannertutoriales p {
+  text-align: center;
+  color: #2a3c5c;
   font-size: 20px;
   font-family: "Raleway", sans-serif;
 }
@@ -305,40 +328,161 @@ h2 {
 
 .erocliente img {
   height: 100px;
+  width: auto;
 }
 
 /*---Pagina Seguros---*/
 
 .seguro {
-  background-image: url(../images/erocliente.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  width: 320px;
-  height: 320px;
+  background-color: #fff;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  width: 260px;
+  height: 260px;
   margin-bottom: 3em;
-  border-radius: 8px 0px 8px 0px;
+  border-radius: 12px 0px 12px 0px;
   margin: 0px 5px 10px 5px;
-}
-
-.seguro:hover {
-  opacity: 90%;
+  box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
 .seguro h2 {
-  color: #fff;
+  font-family: "Raleway", sans-serif;
+  color: #2a3c5c;
   text-align: left;
   margin-left: 6%;
-  font-size: 40px;
-  margin-top: 20%;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.seguro h2 {
+  font-family: "Raleway", sans-serif;
+  color: #2a3c5c;
+  text-align: left;
+  margin-left: 6%;
+  font-size: 20px;
+  font-weight: bolder;
 }
 
 .seguro p {
+  font-family: "Raleway", sans-serif;
   color: #f7a928;
   text-align: left;
   margin-left: 6%;
-  font-size: 18px;
+  font-size: 14px;
+}
+.seguro img {
+  justify-content: center;
+  width: 40%;
+  margin: 20px;
+}
+
+/*MODALS*/
+.modal-content {
+  padding: 20px;
+  border-radius: 12px 0px 12px 0px;
+}
+.modal-header {
+  border: none;
+}
+.modal-title {
+  color: #03b2b7;
+  font-size: 1.8em;
+}
+.modal-body {
+  font-size: 0.9em;
+  padding-top: 0;
+}
+
+.form-modal {
+  text-align: left;
+}
+.form-modal .form-label {
+  color: #2a3c5c;
+  font-size: 13px;
+}
+.ventaja-title {
+  font-size: 1.4em;
+  font-weight: 600;
+  color: #2a3c5c;
+}
+.ventaja-icon {
+  color: #2a3c5c;
+  margin-right: 14px;
+}
+.ventaja-p {
+  font-size: 1em;
+  color: #2b819b;
+  padding-left: 28px;
+}
+
+/*---Seccion Tutoriales---*/
+
+#tutoriales {
+  background-color: beige;
+  display: flex;
+  flex-direction: row wrap;
+}
+
+#tutoriales h3 {
+  color: #2a3c5c;
+  text-align: left;
+  font-weight: bolder;
+}
+
+#tutoriales h4 {
+  color: #f7a928;
+  text-align: left;
+  font-weight: bolder;
+}
+
+.tutorial {
+  display: flex;
+
+  padding: 0 10vw 0 10vw;
+  margin: 2px;
+}
+.tutorial h4 {
+  font-family: "Raleway", sans-serif;
+  color: #f7a928;
+  font-weight: 600;
+  width: 100%;
+}
+
+.tutorial h3 {
+  font-family: "Raleway", sans-serif;
+  color: #2a3c5c;
+  font-weight: 600;
+  width: 100%;
+}
+
+.tuto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tuto img {
+  background-color: #fff;
+  width: auto;
+  height: 200px;
+  margin-bottom: 1em;
+
+  box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.tuto a {
+  font-family: "Raleway", sans-serif;
+  margin-left: 5px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #2a3c5c;
+  font-size: 15px;
+  text-align: left;
+  margin-bottom: 1em;
+}
+.tuto a:hover {
+  color: #2a3c5c;
+  text-decoration: underline;
 }
 
 /*---Seccion Contacto---*/
@@ -432,12 +576,23 @@ h4 {
   color: #fff;
   padding: 60px;
 }
+.como-funciona-top {
+  font-family: "Raleway", sans-serif;
+  background-color: #2a3c5c;
+  color: #fff;
+  padding: 30px;
+}
 
 .soy-ero a,
-.soy-cliente a {
+.soy-cliente a,
+.soy-ero a:visited,
+.soy-cliente a:visited {
   color: #fff;
   text-decoration: none;
+  text-align: center;
+  padding: 10px;
 }
+
 .soy-ero a:hover {
   color: #03b2b7;
   text-decoration: none;
@@ -449,8 +604,26 @@ h4 {
   transform: scale(1.5);
 }
 
-.soy-cliente,
-.soy-ero,
-img {
+.soy-ero a:active {
+  color: #03b2b7;
+  text-decoration: none;
+  transform: scale(1.5);
+}
+.soy-cliente a:active {
+  color: #f7a928;
+  text-decoration: none;
+  transform: scale(1.5);
+}
+
+.soy-cliente img,
+.soy-ero img {
   width: 110px;
+}
+.white-section {
+  background-color: #fff;
+  padding: 60px;
+  overflow: hidden;
+}
+.Pasos h3 {
+  color: #03b2b7;
 }
