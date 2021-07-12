@@ -54,7 +54,7 @@ function Categorias(){
         <div className="categoriaContent d-flex flex-column flex-md-row my-4 my-md-0 ">
         <div className="text-md-right text-center mr-0 mr-md-3"><h5>Nuestras Categorías <br/>más solicitadas</h5></div>
         <div className="d-flex flex-row align-items-around "><IconsNav/></div>
-       <div className="boton-nar d-flex d-inline mt-2 mt-md-0"><Link to='/'>Ver más</Link></div>
+       <div className="boton-nar d-flex d-inline mt-2 mt-md-0"><Link to='/categorias'>Ver más</Link></div>
       </div>
       <div className="catPrincipales d-flex flex-wrap">
         <div className="erocliente col-12 col-md-5 px-5 py-3">
